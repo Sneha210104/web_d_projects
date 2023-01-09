@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <!-- <header>
+    <img src="https://thumbs.dreamstime.com/b/infinity-line-icon-black-background-black-flat-style-vector-illustration-infinity-line-icon-black-background-black-flat-168421567.jpg" alt="error image" width="150" height="100">
+    <div class="nav">
+      <h3>ACME GLOBAL COMPANY</h3>
+      <p >Lorem ipsum dolor sit amet.</p>
+      <p >Lorem ipsum dolor sit amet.</p>
+      <p >Lorem ipsum dolor sit amet.</p>
+      </div>
+  </header> -->
+  
+  <form>
+    <h2>CUSTOMER DETAILS:</h2>
+    <p>Full Name*</p>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname">
+    <label class="last" for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname"><br>
+    
+    <br>
+    <label for="add">Address</label>
+    <input type="text" id="add" ><br>
+  <br>
+    <label for="city">City</label>  
+  <input type="text" id="city">
+  <label for="state">State/Province</label>
+  <input type="text" id="state"><br>
+  <br>
+  <label for="text">Postal/Zip code
+  </label>
+  <input type="text" id="text"><br>
+  
+  <div class="phone">
+   <label for="num">Phone</label>
+    <input type="text" id="num">
+  </div><br>
+  
+  <div class="mail">
+   <label for="email">E-mail</label>
+    <input type="email" id="email">̥
+  </div><br>
+  <label for="hear">How did you hear about us</label>
+  <input list="hear">
+  <datalist id="hear">
+    <option value="Newspaper">
+    <option value="Internet">
+    <option value="Magazine">
+    <option value="Other">
+  </datalist>
+  <br>
+ 
+  <div>
+    <label for="area">Feedback About us</label>
+   <br><textarea id="area"name=""  cols="80" rows="20"></textarea>
+ </div>
+ <div>
+  <label for="sugg">Suggestions if any for further improvement</label>
+  <br> <textarea id="sugg" name=""  cols="80" rows="20"></textarea>
+</div>
+<div>
+  Will you be willing to recommend us:<br>Yes <input type="radio" id=""><br>No <input type="radio" id=""><br>Maybe <input type="radio" id="">
+</div> 
+<br>
+<div>
+  <input type="submit" value="submit">
+</div>
+
+
+
+
+  </form>
+</body>
+
+</html>
